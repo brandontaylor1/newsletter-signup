@@ -50,12 +50,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    order: 1;
 
-}
-
-.card-image {
-    order: 2;
 }
 
 .card-content-text {
@@ -182,53 +177,63 @@ label {
     width: 400px;
 }
 
-.responsive-image {
-    content: url("./assets/images/illustration-sign-up-desktop.svg")
-}
 
 /* Responsive */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .card {
         grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr;
-    }
-
-    .responsive-image {
-        content: url("./assets/images/illustration-sign-up-mobile.svg");
+        grid-template-rows: 1fr auto;
+        height: auto;
         width: 100%;
-    }
-
-    .card {
-        padding: 0;
-        width: auto;
-        height: 842px;
-    }
-
-    .card-content {
-        order: 2;
-        padding: 0 24px 0 24px;
-    }
-
-
-
-    .card-content-text h1 {
-        color: var(--Dark-Navy, #242742);
-        font-family: Roboto;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 100%; /* 40px */
     }
 
     .card-image {
-        order: 1;
+        display: none;
     }
 
-    .card-image img {
-        object-fit: cover;
+    .card-content {
+        padding: 24px;
+    }
+
+    .card-content-text {
         width: 100%;
-
+        height: auto;
     }
 
+    .card-content h1 {
+        font-size: 40px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+
+    .card-content-list li {
+        font-size: 14px;
+    }
+
+    .card-content-list {
+        padding-left: 0;
+    }
+
+    .card-content-list li {
+        margin-left: 0;
+    }
+
+    .card-content-list li::before {
+        content: "•";
+        color: var(--neutral-color-darkGray);
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    #email {
+        padding: 16px 16px;
+    }
+
+    .submit-btn {
+        padding: 16px 16px;
+    }
 }

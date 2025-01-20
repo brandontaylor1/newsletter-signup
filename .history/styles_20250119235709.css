@@ -201,16 +201,18 @@ label {
 
     .card {
         padding: 0;
-        width: auto;
+        width: 375px;
         height: 842px;
     }
 
     .card-content {
         order: 2;
-        padding: 0 24px 0 24px;
+        padding: 0;
     }
 
-
+    .card-content-text {
+        padding: 24px 24px;
+    }
 
     .card-content-text h1 {
         color: var(--Dark-Navy, #242742);

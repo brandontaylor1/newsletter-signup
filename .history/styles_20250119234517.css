@@ -191,44 +191,21 @@ label {
 @media screen and (max-width: 800px) {
     .card {
         grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr;
+        grid-template-rows: 1fr auto;
+        height: 842px;
+        width: 375px;
     }
 
     .responsive-image {
         content: url("./assets/images/illustration-sign-up-mobile.svg");
-        width: 100%;
-    }
-
-    .card {
-        padding: 0;
-        width: auto;
-        height: 842px;
     }
 
     .card-content {
         order: 2;
-        padding: 0 24px 0 24px;
-    }
-
-
-
-    .card-content-text h1 {
-        color: var(--Dark-Navy, #242742);
-        font-family: Roboto;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 100%; /* 40px */
     }
 
     .card-image {
         order: 1;
-    }
-
-    .card-image img {
-        object-fit: cover;
-        width: 100%;
-
     }
 
 }
