@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* COLORS */
+
+    --primary-color-tomato: hsl(4, 100%, 67%);
+    --neutral-color-white: hsl(0, 0%, 100%);
+    --neutral-color-darkGray: hsl(234, 29%, 20%);
+    --neutral-color-charcoalGray: hsl(235, 18%, 26%);
+    --neutral-color-gray: hsl(231, 7%, 60%);
+
+    /* FONTS */
+    --fontWeight-regular: 400;
+    --fontWeight-heavy: 700;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--neutral-color-darkGray);
+}
+
+.success-card {
+    width: 504px;
+    height: 520px;
+    background-color: var(--neutral-color-white);
+    border-radius: 36px;
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+    padding: 64px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    
+}
+
+.success-card h1 {
+    color: var(--neutral-color-darkGray);
+    /* Heading */
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 56px */
+}
+
+.success-card img {
+    width: 64px;
+    height: 64px;
+}
+
+button {
+    width: 100%;
+    padding: 18px 0;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background: var(--Dark-Navy, #242742);
+}
