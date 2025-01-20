@@ -96,6 +96,7 @@ body {
 }
 
 .card-content-list li {
+    margin-left: 21px;
     padding-bottom: 10px;
     color: var(--neutral-color-darkGray);
     font-family: Roboto;
