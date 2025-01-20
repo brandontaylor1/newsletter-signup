@@ -158,9 +158,9 @@ label {
 
 .submit-btn {
     margin-top: 24px;
-    font-size: 14px;
     width: 100%;
     height: 56px;
+    padding: 16px 71px;
     border-radius: 8px;
     font-weight: 700;
     border: none;
@@ -201,52 +201,24 @@ label {
 
     .card {
         padding: 0;
-        width: 380px;
+        width: 375px;
         height: 842px;
-        border-radius: 0px;  
     }
 
     .card-content {
         order: 2;
-        padding: 0px;
+        padding: 0 24px 0 24px;
     }
 
-    .card-content-text {
-        height: 446px;
-        width: 376px;
-        padding: 40px 24px;
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        justify-content: center;
-    }
 
-    .card-content h1 {
-        font-size: 40px;
-        line-height: 100%;
-    }                                                                                                                                                                                                                                                                                                           
+
     .card-content-text h1 {
         color: var(--Dark-Navy, #242742);
-        font-feature-settings: 'liga' off, 'clig' off;
         font-family: Roboto;
         font-size: 40px;
         font-style: normal;
-        font-weight: 600;
-        line-height: 100%;
-    }
-
-    .list-item {
-        display: flex;
-        margin-bottom: 30px;
-    }
-
-    .list-item li{
-        color: var(--Dark-Navy, #242742);
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
+        font-weight: 700;
+        line-height: 100%; /* 40px */
     }
 
     .card-image {
@@ -256,17 +228,7 @@ label {
     .card-image img {
         object-fit: cover;
         width: 100%;
-    }
 
-    #form {
-        margin-top: 40px;
     }
-
-    .submit-btn {
-        font-size: 14px;
-        width: 100%;
-    }
-   
-
 
 }

@@ -46,13 +46,7 @@ body {
     
 }
 
-.success-card-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.success-card-text h1 {
+.success-card h1 {
     color: var(--neutral-color-darkGray);
     /* Heading */
     font-family: Roboto;
@@ -60,13 +54,11 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 100%; /* 56px */
-    margin-bottom: 20px;
 }
 
 .success-card img {
     width: 64px;
     height: 64px;
-    margin-bottom: 40px;
 }
 
 button {
@@ -100,39 +92,23 @@ button:hover {
     
     .success-card {
         width: 327px; 
-        height: 842px;
+        height: 623px;
         padding: 40px 24px;
         border-radius: 0px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
-        position: relative;
     }
 
-    .success-card-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: left;
-        padding-top: 149px;
-    }
 
     .success-card h1 {
         width: 100%;
         color: var(--Dark-Navy, #242742);
+        font-feature-settings: 'liga' off, 'clig' off;
         font-family: Roboto;
         font-size: 40px;
         font-style: normal;
         font-weight: 700;
-        line-height: 100%;
-        padding-bottom: 12px;
+        line-height: 100%; /* 40px */
     }
-
-    .success-card img {
-        width: 64px;
-        height: 64px;
-        margin-bottom: 40px;
-    }
-
 }

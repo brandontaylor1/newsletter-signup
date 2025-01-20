@@ -100,7 +100,7 @@ button:hover {
     
     .success-card {
         width: 327px; 
-        height: 842px;
+        height: auto;
         padding: 40px 24px;
         border-radius: 0px;
         display: flex;
@@ -108,14 +108,6 @@ button:hover {
         justify-content: space-between;
         align-items: center;
         position: relative;
-    }
-
-    .success-card-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: left;
-        padding-top: 149px;
     }
 
     .success-card h1 {

@@ -43,16 +43,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: left;
+    position: relative;
     
 }
 
-.success-card-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.success-card-text h1 {
+.success-card h1 {
     color: var(--neutral-color-darkGray);
     /* Heading */
     font-family: Roboto;
@@ -60,13 +55,11 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 100%; /* 56px */
-    margin-bottom: 20px;
 }
 
 .success-card img {
     width: 64px;
     height: 64px;
-    margin-bottom: 40px;
 }
 
 button {
@@ -78,6 +71,10 @@ button {
     border-radius: 8px;
     background: var(--Dark-Navy, #242742);
     color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     transition: all 0.3s ease;
 }
 
@@ -100,22 +97,13 @@ button:hover {
     
     .success-card {
         width: 327px; 
-        height: 842px;
-        padding: 40px 24px;
+        height: 812px;
+        padding: 24px;
         border-radius: 0px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-    }
-
-    .success-card-text {
-        display: flex;
-        flex-direction: column;
         justify-content: space-around;
-        align-items: left;
-        padding-top: 149px;
+        align-items: center;
     }
 
     .success-card h1 {
@@ -126,7 +114,6 @@ button:hover {
         font-style: normal;
         font-weight: 700;
         line-height: 100%;
-        padding-bottom: 12px;
     }
 
     .success-card img {
@@ -135,4 +122,8 @@ button:hover {
         margin-bottom: 40px;
     }
 
+    #dismiss-btn {
+        margin-bottom: 40px;
+
+    }
 }

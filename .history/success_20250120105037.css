@@ -114,8 +114,8 @@ button:hover {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        align-items: left;
-        padding-top: 149px;
+        align-items: center;
+        text-align: center;
     }
 
     .success-card h1 {

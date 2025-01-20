@@ -60,7 +60,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 100%; /* 56px */
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .success-card img {
@@ -100,22 +100,13 @@ button:hover {
     
     .success-card {
         width: 327px; 
-        height: 842px;
+        height: 812px;
         padding: 40px 24px;
         border-radius: 0px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-    }
-
-    .success-card-text {
-        display: flex;
-        flex-direction: column;
         justify-content: space-around;
-        align-items: left;
-        padding-top: 149px;
+        align-items: center;
     }
 
     .success-card h1 {
@@ -126,7 +117,7 @@ button:hover {
         font-style: normal;
         font-weight: 700;
         line-height: 100%;
-        padding-bottom: 12px;
+        padding-bottom: 24px;
     }
 
     .success-card img {
@@ -134,5 +125,6 @@ button:hover {
         height: 64px;
         margin-bottom: 40px;
     }
+
 
 }

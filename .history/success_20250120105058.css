@@ -115,7 +115,6 @@ button:hover {
         flex-direction: column;
         justify-content: space-around;
         align-items: left;
-        padding-top: 149px;
     }
 
     .success-card h1 {

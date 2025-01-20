@@ -100,22 +100,14 @@ button:hover {
     
     .success-card {
         width: 327px; 
-        height: 842px;
+        height: 812px;
         padding: 40px 24px;
         border-radius: 0px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         position: relative;
-    }
-
-    .success-card-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: left;
-        padding-top: 149px;
     }
 
     .success-card h1 {
@@ -133,6 +125,21 @@ button:hover {
         width: 64px;
         height: 64px;
         margin-bottom: 40px;
+    }
+
+    button {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 18px 0;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        background: var(--Dark-Navy, #242742);
+        color: white;
+        transition: all 0.3s ease;
+
     }
 
 }

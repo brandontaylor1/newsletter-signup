@@ -161,6 +161,7 @@ label {
     font-size: 14px;
     width: 100%;
     height: 56px;
+    padding: 16px 71px;
     border-radius: 8px;
     font-weight: 700;
     border: none;
@@ -201,7 +202,7 @@ label {
 
     .card {
         padding: 0;
-        width: 380px;
+        width: 376px;
         height: 842px;
         border-radius: 0px;  
     }
@@ -263,8 +264,7 @@ label {
     }
 
     .submit-btn {
-        font-size: 14px;
-        width: 100%;
+        font-size: 12px;
     }
    
 

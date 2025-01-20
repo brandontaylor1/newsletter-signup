@@ -110,14 +110,6 @@ button:hover {
         position: relative;
     }
 
-    .success-card-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: left;
-        padding-top: 149px;
-    }
-
     .success-card h1 {
         width: 100%;
         color: var(--Dark-Navy, #242742);
